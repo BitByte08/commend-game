@@ -17,13 +17,27 @@ MonoBehaviour:
   description: 
   preview: {fileID: 0}
   dependencies:
-  - dependency: {fileID: 2800000, guid: 00e67b80faa564960ac11dea430bc9cf, type: 3}
+  - dependency: {fileID: 2800000, guid: 68390ce6941a4437280ea6f12a135140, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 67663d3c697ac43a48260ddf13aad4a8, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: cef76ef23a3a54cdda56f8cd4a5c74b0, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: c73aa4fbdb7034b1d9a8787511fbfe16, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: cdf2c8a041f4449b9ae78986cebd97e4, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 5d06602b3e724445b844d7a55ed0bfbe, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: e9f8c011ef2804b109ab230b7892c7e9, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 8c07b77428f074358ad8910dc7eddd20, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 94a51f58dd51b423e890e39d66d92312, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 2100000, guid: cd32eaa75a5144ae29e169ad10efc3a9, type: 2}
+  - dependency: {fileID: 2800000, guid: 4bc15ec54b9ea4d25a0d8d81ec43965a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: f20c3dee090624f33888e4aa33d6a11f, type: 3}
     instantiationMode: 0
   templatePipeline: {fileID: 0}
   badge: {fileID: 0}
