@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 43596938}
   - component: {fileID: 43596937}
   - component: {fileID: 43596936}
-  - component: {fileID: 43596940}
   - component: {fileID: 43596941}
   m_Layer: 3
   m_Name: Cloud
@@ -231,19 +230,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1969634027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &43596940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43596935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef02c017a84354662baaa488ccedc2e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.02
 --- !u!210 &43596941
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -255,51 +241,6 @@ SortingGroup:
   m_SortingLayerID: -978436065
   m_SortingLayer: -2
   m_SortingOrder: 1
-  m_SortAtRoot: 0
---- !u!1 &202304605
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 202304606}
-  - component: {fileID: 202304607}
-  m_Layer: 6
-  m_Name: Ground
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &202304606
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202304605}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1521370989}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!210 &202304607
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202304605}
-  m_Enabled: 1
-  m_SortingLayerID: -661343441
-  m_SortingLayer: -1
-  m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!1 &519420028
 GameObject:
@@ -405,7 +346,6 @@ GameObject:
   - component: {fileID: 601393980}
   - component: {fileID: 601393979}
   - component: {fileID: 601393978}
-  - component: {fileID: 601393977}
   - component: {fileID: 601393976}
   m_Layer: 3
   m_Name: Factory
@@ -441,19 +381,6 @@ SortingGroup:
   m_SortingLayer: -2
   m_SortingOrder: 2
   m_SortAtRoot: 0
---- !u!114 &601393977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601393974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef02c017a84354662baaa488ccedc2e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.03
 --- !u!64 &601393978
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -538,7 +465,6 @@ GameObject:
   - component: {fileID: 930246374}
   - component: {fileID: 930246373}
   - component: {fileID: 930246372}
-  - component: {fileID: 930246371}
   - component: {fileID: 930246370}
   m_Layer: 3
   m_Name: Factory2
@@ -574,19 +500,6 @@ SortingGroup:
   m_SortingLayer: -2
   m_SortingOrder: 3
   m_SortAtRoot: 0
---- !u!114 &930246371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930246368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef02c017a84354662baaa488ccedc2e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.04
 --- !u!64 &930246372
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -671,7 +584,6 @@ GameObject:
   - component: {fileID: 1049829218}
   - component: {fileID: 1049829217}
   - component: {fileID: 1049829216}
-  - component: {fileID: 1049829215}
   - component: {fileID: 1049829214}
   m_Layer: 3
   m_Name: Factory3
@@ -707,19 +619,6 @@ SortingGroup:
   m_SortingLayer: -2
   m_SortingOrder: 4
   m_SortAtRoot: 0
---- !u!114 &1049829215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049829212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef02c017a84354662baaa488ccedc2e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.05
 --- !u!64 &1049829216
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -903,7 +802,7 @@ GameObject:
   - component: {fileID: 1521370990}
   - component: {fileID: 1521370993}
   m_Layer: 6
-  m_Name: middlebottom
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,11 +817,11 @@ Transform:
   m_GameObject: {fileID: 1521370988}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.4993758, z: 0.8988764}
+  m_LocalScale: {x: 1.6853933, y: 0.09987516, z: 0.8988764}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 202304606}
+  m_Father: {fileID: 1969634027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1521370990
 MeshCollider:
@@ -996,19 +895,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521370988}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1521370993
-MonoBehaviour:
+--- !u!210 &1521370993
+SortingGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521370988}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef02c017a84354662baaa488ccedc2e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
+  m_SortingLayerID: -661343441
+  m_SortingLayer: -1
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &1969634026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969634027}
   - component: {fileID: 1969634028}
+  - component: {fileID: 1969634029}
   m_Layer: 3
   m_Name: Background
   m_TagString: Untagged
@@ -1039,6 +938,7 @@ Transform:
   m_LocalScale: {x: 17.8, y: 10.0125, z: 1.1125}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 1521370989}
   - {fileID: 601393975}
   - {fileID: 930246369}
   - {fileID: 1049829213}
@@ -1058,10 +958,27 @@ SortingGroup:
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &1969634029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969634026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b943d8d4db44a44219b05d6ae596ab3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cloud: {fileID: 43596935}
+  Factory: {fileID: 601393974}
+  Factory2: {fileID: 930246368}
+  Factory3: {fileID: 1049829212}
+  Ground: {fileID: 1521370988}
+  speed: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 202304606}
   - {fileID: 1969634027}
